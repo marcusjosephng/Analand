@@ -59,7 +59,7 @@
 
             // Fade choice in after a short delay
             showAfter(delay, choiceParagraphElement);
-            delay += 600.0;
+            delay += 300.0;
 
             // Click on choice
             var choiceAnchorEl = choiceParagraphElement.querySelectorAll("a")[0];
