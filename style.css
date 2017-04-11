@@ -1,4 +1,41 @@
----
----
+body {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
 
-@import "{{ site.theme }}";
+h1 {
+    text-align: center;
+    font-weight: lighter;
+}
+
+.container {
+    display: block;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+p, a {
+    text-align: center;
+    color: gray;
+    line-height: 1.7em;
+    font-size: 13pt;
+}
+
+p {
+    opacity: 0.0;
+    transition: opacity 1.0s;
+}
+
+p.show {
+    opacity: 1.0;
+}
+
+p.choice {
+    text-align: center;
+}
+
+a:hover {
+    color: black;
+}
